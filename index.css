@@ -1,0 +1,50 @@
+body, html {
+    height:  100%;
+    margin:  0px auto;
+    padding: 0px auto;
+}
+
+.wrapper {
+    position: relative; /* Important: This is relative to the body or container */
+    width: 100%; /* Set the width as needed */
+    height: 100%; /* Set the height as needed */
+
+ }
+ .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0DFAD;
+ }
+ .meerkat {
+    width: 100vw;
+    height: auto;
+ }
+ .photo {
+    background-image: url('./assets/meerkat.png');
+    background-size: contain; /* Adjust as needed */
+    background-position: center left; /* Adjust as needed */
+    background-attachment: fixed; /* Optional: Fixed background */
+    height: 100vw;
+ }
+ .logo {
+    height: auto;
+    background-color: #635B39;
+    opacity: .7;
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+#meerkatSvg {
+    height: 5vh;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
